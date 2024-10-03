@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+body {
+    
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #0f0f0f;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+
+.form_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 295px;
+    background-color: white;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_div {
+    padding-right: 2rem;
+}
+
+.home_a {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.home_a:hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+.button_pesquisa {
+    padding-left: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.img_search {
+    width: 45px;
+    padding-right: 18px;
+    background-color: transparent;
+}
+
+.pesquisa {
+    border-radius: 100px;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.movie-card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px #ffffff10;
+    transition: transform 0.2s;
+    min-width: 200px;
+    cursor: pointer;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+}
+
+.movie-title {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.movie-img {
+    width: 100%;
+    border-radius: 5px;
+}

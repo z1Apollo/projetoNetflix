@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Fredoka", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    background-color: #0f0f0f;;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_div {
+    padding-right: 2rem;
+}
+
+.home_a {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+
+.home_a:hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.13);
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.estilo {
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #ffffff10;
+    transition: transform 0.2s;
+    min-width: 200px;
+}
+
+.img-detalhe {
+    width: 300px;
+    padding: 20px;
+    padding-right: 30px;
+}
+
+.caixa-det {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 20px;
+}
